@@ -10,12 +10,15 @@ body{
     text-align: center;
     font-size: 35px;
 }
+* {
+    box-sizing: border-box;
+  }
+  
 #kontener{
     height: 100vh;
 }
 .bok{
     width: 10%;
-    min-width: 100px;
     float: left;
 }
 #środek{
@@ -81,27 +84,5 @@ clear: both;
 img{
     width: 50%;
     height: 50%;
-}
-.wrapper{
-    border-radius: 10px;
-    float: left;
-}
-
-.menu-tab{
-    padding: 0.5em 1em;
-    font-size: 20px;
-    background-color: #681568;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: .3s;
-}
-
-.menu-tab:hover{
-    background-color: #640964;
-
-}
-
-.menu-tab-active{
-    background-color: #aa22aa;
 }
 }
